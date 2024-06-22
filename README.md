@@ -1,5 +1,34 @@
 # BOILERPLATE APP (FOR DUMMIES)
 
+
+
+# SYSTEM REQUIREMENTS
+- python 3+
+- vscode
+# BUILD
+- on terminal, type 
+  
+  ```shell
+  python -m venv env
+  ```
+will appears a new directory called "env" (who is in .gitignore)
+
+Activate and execute virtual environment
+```shell
+  .\env\Scripts\Activate.ps1
+```
+in your terminal you see something like this
+```shell
+(env) PS W:\dev\pucrs\ALESTII\T2ALESTII>
+```
+
+- install dependencies
+```shell
+  pip install networkx matplotlib       
+```
+
+- for run, open matrioska.py and select "play" on top - right corner of window
+
 # CONVENTIONS
 
 ## Notice: Please be aware that deviating from the established conventions may result in unforeseen issues for which you will be solely responsible
