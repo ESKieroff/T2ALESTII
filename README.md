@@ -131,3 +131,71 @@ and follow the steps.
 - `refactor`: Refactoring of existing code, without changing functional behavior.
 - `test`: Addition or modification of tests, including unit tests, integration tests, or adjustments to test scripts.
 - `chore`: Maintenance tasks, configuration adjustments, dependency updates, or any other changes that do not fit into the previous categories.
+
+
+
+A biblioteca NetworkX (`networkx`) e Matplotlib (`matplotlib`) são as principais bibliotecas externas utilizadas nesse código. 
+Se elas não estiverem instaladas no seu ambiente Python, você precisará instalá-las. 
+Aqui estão os comandos para instalar essas bibliotecas:
+
+### Instalando NetworkX e Matplotlib
+
+1. **NetworkX**:
+    ```sh
+    pip install networkx
+    ```
+
+2. **Matplotlib**:
+    ```sh
+    pip install matplotlib
+    ```
+
+### Verificando as Instalações
+
+Para garantir que as bibliotecas estão instaladas corretamente, você pode executar os seguintes comandos no Python:
+
+```python
+import networkx as nx
+import matplotlib.pyplot as plt
+
+print(f"NetworkX version: {nx.__version__}")
+print(f"Matplotlib version: {plt.__version__}")
+```
+
+### Instruções Completas
+
+Aqui está o conjunto completo de instruções para configurar o seu ambiente, incluindo a instalação das bibliotecas necessárias e a execução do código atualizado:
+
+1. **Crie um novo ambiente virtual (opcional, mas recomendado)**:
+    ```sh
+    python -m venv myenv
+    ```
+
+2. **Ative o ambiente virtual**:
+    - **Windows**:
+        ```sh
+        myenv\Scripts\activate
+        ```
+    - **macOS/Linux**:
+        ```sh
+        source myenv/bin/activate
+        ```
+
+3. **Instale as bibliotecas necessárias**:
+    ```sh
+    pip install networkx matplotlib pydot
+    ```
+
+4. **Verifique as instalações**:
+    ```sh
+    python
+    >>> import networkx as nx
+    >>> import matplotlib.pyplot as plt
+    >>> print(f"NetworkX version: {nx.__version__}")
+    >>> print(f"Matplotlib version: {plt.__version__}")
+    ```
+
+5. **Execute o seu código**:
+    ```sh
+    python Matrioska.py
+    ```
