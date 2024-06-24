@@ -1,108 +1,19 @@
-# BOILERPLATE APP (FOR DUMMIES)
-
+# A SIMPLE GUIDE 
 
 
 # SYSTEM REQUIREMENTS
+
 - python 3+
 - vscode
-# BUILD
-- on terminal, type 
-  
-  ```shell
-  python -m venv env
-  ```
-will appears a new directory called "env" (who is in .gitignore)
+- java 17+
+- 
+extensions:
+- Python language support for vscode 
+- Python Indent
+- Python Environment Manager
+- something for java debug/ build
 
-Activate and execute virtual environment
-```shell
-  .\env\Scripts\Activate.ps1
-```
-in your terminal you see something like this
-```shell
-(env) PS W:\dev\pucrs\ALESTII\T2ALESTII>
-```
 
-- install dependencies
-```shell
-  pip install networkx matplotlib       
-```
-
-- for run, open matrioska.py and select "play" on top - right corner of window
-
-# CONVENTIONS
-
-## Notice: Please be aware that deviating from the established conventions may result in unforeseen issues for which you will be solely responsible
-
-- use camel case
-- for foreing key, use "fk_" before the name of column, like "fk_userId".
-- use LF(never CRLF) as default.
-
-Prisma Usage
-
-```shell
-  prisma [command]
-```
-
-Commands
-
-            init   Set up Prisma for your app
-        generate   Generate artifacts (e.g. Prisma Client)
-              db   Manage your database schema and lifecycle
-         migrate   Migrate your database
-          studio   Browse your data with Prisma Studio
-        validate   Validate your Prisma schema
-          format   Format your Prisma schema
-         version   Displays Prisma version info
-           debug   Displays Prisma debug info
-
-Flags
-
-     --preview-feature   Run Preview Prisma commands
-     --help, -h          Show additional information about a command
-
-Examples
-
-  Set up a new Prisma project
-
-  ```shell
-  prisma init
-```
-
-  Generate artifacts (e.g. Prisma Client)
-
-  ```shell
-  prisma generate
-```
-  
-  Browse your data
-
-  ```shell
-  prisma studio
-```
-  
-  Create migrations from your Prisma schema, apply them to the database, generate artifacts (e.g. Prisma Client)
-
-  ```shell
-  prisma migrate dev
-```
-  
-  Pull the schema from an existing database, updating the Prisma schema
-
-  ```shell
-  prisma db pull 
-```
-
-  Push the Prisma schema state to the database
-
-  ```shell
-  prisma db push
-```
-  
-## for start database postgresql
-
-  ```shell
-  docker compose up -D
-```
 
 ## commits pattern
 
@@ -112,15 +23,6 @@ Examples
 
 <https://datatracker.ietf.org/doc/html/rfc7807>
 
-# RELEASES
-
-for publish a release of project, after commit use
-
-```shell
-npm run release
-```
-
-and follow the steps.
 
 ## Conventional Commits micro guide
 
@@ -133,6 +35,8 @@ and follow the steps.
 - `chore`: Maintenance tasks, configuration adjustments, dependency updates, or any other changes that do not fit into the previous categories.
 
 
+# BUILD PYTHON
+  
 
 A biblioteca NetworkX (`networkx`) e Matplotlib (`matplotlib`) são as principais bibliotecas externas utilizadas nesse código. 
 Se elas não estiverem instaladas no seu ambiente Python, você precisará instalá-las. 
@@ -199,6 +103,8 @@ Aqui está o conjunto completo de instruções para configurar o seu ambiente, i
     ```sh
     python Matrioska.py
     ```
+
+    
 # RESULTS
 python results:
 10 = 4  0.00 ms
