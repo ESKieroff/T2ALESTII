@@ -199,3 +199,27 @@ Aqui está o conjunto completo de instruções para configurar o seu ambiente, i
     ```sh
     python Matrioska.py
     ```
+# RESULTS
+python results:
+10 = 4  0.00 ms
+20 = 5  5.01 ms
+50 = 11 30.36 ms
+100 = 13 159.48 ms 
+200 = 17 990.17 ms 
+300 = 13 164.95 ms
+500 = 27 15105.01 ms 
+1000 = 32 110534.41 ms
+limite de tempo, travando máquina... não serão executados os testes maiores
+
+java results:
+10 = 4  6 ms
+20 = 5  4 ms
+50 = 11 6 ms
+100 = 13 40 ms 
+200 = 17 42 ms 
+300 = 13 13 ms
+500 = 27 194 ms 
+1000 = 32 295 ms
+2000 = 43 380 ms
+5000 = 60 1114 ms 
+10000 = 75 3898 ms
