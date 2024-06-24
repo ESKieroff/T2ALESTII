@@ -34,13 +34,13 @@ class Matrioska:
         # self.visualize_graph()
         
         # Salvar a imagem do grafo como PNG
-        self.save_graph_image("graph.png")
+        #self.save_graph_image("graph.png")
 
         # Exportar o grafo para o formato DOT
         self.export_to_dot("graph.dot")
         
         # Salvar a imagem do maior caminho
-        self.save_longest_path_image(longest_path, "longest_path.png")
+        #self.save_longest_path_image(longest_path, "longest_path.png")
 
         # Exportar o maior caminho para o formato DOT
         self.export_longest_path_to_dot(longest_path, "longest_path.dot")
@@ -149,9 +149,3 @@ class Matrioska:
 if __name__ == "__main__":
     matrioska = Matrioska()
     matrioska.main()
-    #matrioska.read_boxes_from_file("teste.txt")
-    #matrioska.build_graph()    
-    #matrioska.write_log_file("log.txt")
-    #matrioska.visualize_graph()
-    #matrioska.save_graph_image("graph.png")
-    #matrioska.export_to_dot("graph.dot")
